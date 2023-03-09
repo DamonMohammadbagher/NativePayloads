@@ -1,0 +1,10 @@
+Bug1 Fixed: bug for NativePayload_ARP fixed by adding new code ;) , (30 jan 2017)
+
+now you can type local IP-Address for Sending ARP request by your local IP-Address ,
+
+Hard-coded IPAddress in source code Deleted ;) I AM SORRY ;) my mistake , hahhaaha
+
+bug2: (31 jan 2017)
+  /// tmp.ToString() != "00ff00ff00ff" ==> bug2 here, this should be ff00ff00ff
+                Bug :         if (MacAddress.Count == 0 && tmp.ToString() != "ffffffffff" && tmp.ToString() != "00ff00ff00ff" && init)     
+                Fixed:        if (MacAddress.Count == 0 && tmp.ToString() != "ffffffffff" && tmp.ToString() != "ff00ff00ff" && init)
