@@ -1,0 +1,43 @@
+Next versions :
+i want to add functions for making Dump files for Infected process and making text report files
+and i want to add Network Monitor for this tool with API ;)
+i have idea about make service for this tool with IPS Mode [on] in future.
+this code from version 1.0 until version 1.0.0.5 had a bug for Detecting "Threads Injection" , 
+for example when attacker try to migrat from backdoor to another process like firefox or putty or lsass this code can't detect this
+migration very well , i hope fix this bug in next version very soon ;)
+
+
+Note: sometimes this application detect itself like a backdoor , because in Source code this application try to scanning itself too 
+you can fix that in C# Source Code for avoid itself scanning . (not recommended)
+because this application detecting meterpreter signature bytes in itself memory too. (don't worry its ok) ;-)
+
+
+Test:
+I tested this tool by my own Encrypted Backdoor "C#" and Metasploit and Powershell Backdoors by SET tool.
+Armitage not tested , i think you can detect Armitage backdoors with this tool.
+Cobaltstrike not tested .
+Empire not detected Unfortunately ;) maybe fortunately , because emipre native payloads was different with signature in this tool.  
+
+-------------------
+version 1.0.0.5
+1.fixing huge Usage Memory in version (1.0.0.4) by SetProcessWorkingSetSize Method and GC and avoiding exception in threads 
+2.this code is faster than Previous version like (1.0.0.4)
+3.finally all error output colors changed also show them with time
+
+Note:this code from version 1.0 until version 1.0.0.5 had a bug for Detecting "Threads Injection" , 
+for example when attacker try to migrat from backdoor to another process like firefox or putty or lsass this code can't detect this
+migration very well , i hope fix this bug in next version very soon ;)
+
+version 1.0.0.4
+1.Adding "New Process Event" for Monitoring like Realtime Mode
+2.you should runAs Administrator this version because Method for Monitoring Realtime Process need to Administrator Privilege 
+
+version 1.0.0.3
+1.Adding Debug Mode [on] : Showing Hex for infected Process memory (by default)
+  
+version 1.0.0.2
+1.Adding IPS Mode [on] Switch , using "TerminateThread" function for Killing Infected Thread for Infected Process 
+with Startaddress ="0" , this code should be change in future because this code always killing Threads
+with Startaddress = 0  only
+Note : Powershell payloads by Social Engineer Toolkit SET always use Startaddress 0 for their Backdoor Threads
+RunAs Administrator :  C:\> Meterpreter_Payload_Detection.exe IPS
