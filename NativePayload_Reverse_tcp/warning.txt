@@ -1,0 +1,3 @@
+i made these tools for showing Anti-viruses Vulnerability for Security Researchers and Pentesters only.
+you can use Meterpreter_Payload_Detection.exe Forensic tool for detecting undetectable Meterpreter payloads by scanning Process Memory
+Meterpreter_Payload_Detection tool Link : https://github.com/DamonMohammadbagher/Meterpreter_Payload_Detection
