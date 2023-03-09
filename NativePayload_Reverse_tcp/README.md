@@ -10,7 +10,7 @@ Note : I made this Backdoor source code for describe Antiviruses vulnerability o
  
  Publisher and Author: Damon mohammadbagher
  
- Email :  Damonmohammadbagher@gmail.com
+ Email : 
  
  Step 1 : you should Encrypt your Msfvenom Payload with EncryptMaker tool 
  
