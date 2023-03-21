@@ -7,8 +7,10 @@
   [offensive] NativePayload_ARP2
   [offensive] NativePayload_BSSID
   [offensive] NativePayload_CBT
++ [offensive] NativePayload_DCP
   [offensive] NativePayload_DNS
   [offensive] NativePayload_DNS2
++ [offensive] NativePayload_DYN
   [offensive] NativePayload_DynLCI
   [offensive] NativePayload_HTTP
   [offensive] NativePayload_ICMP
