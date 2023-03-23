@@ -20,7 +20,7 @@ usage:
     NativePayload_DCP.exe DYN-TEXT-FILE Program.cs TPID
 
 
-   ![](https://github.com/DamonMohammadbagher/NativePayload_DCP/blob/main/DCP.png)
+   ![](https://github.com/DamonMohammadbagher/NativePayloads/blob/main/NativePayload_DCP/DCP.png)
 
 
    ![](https://github.com/DamonMohammadbagher/NativePayload_DCP/blob/main/NativePayload_DCP.png)
