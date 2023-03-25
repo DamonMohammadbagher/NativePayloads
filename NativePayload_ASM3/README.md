@@ -1,6 +1,6 @@
 # NativePayload_ASM3
 
-### NativePayload_ASM3/AsynASM , Injecting Meterpreter Payload bytes into local Process via Delegation Technique + in-memory with delay Changing RWX to X [Bypassing AVs]
+### NativePayload_ASM3/AsynASM , NativePayload_ASM/AsynASM , Injecting Meterpreter Payload bytes into local Process via Delegation Technique [Technique D] + in-memory with delay Changing RWX to X [Bypassing AVs]
 
 Note: Code was created in [Jun/Feb 2023] and some AVs like (Windows defender with update jan 2023) bypassed by this simple code for more info watch video.
 
