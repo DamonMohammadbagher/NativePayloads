@@ -3,9 +3,9 @@
 
 Last Update: Mar 2023
 ```diff
-+ [offensive] NativePayload_PE1
   [offensive] NativePayload_ARP
   [offensive] NativePayload_ARP2
++ [offensive] NativePayload_ASM3
   [offensive] NativePayload_BSSID
   [offensive] NativePayload_CBT
 + [offensive] NativePayload_DCP
@@ -18,6 +18,7 @@ Last Update: Mar 2023
   [offensive] NativePayload_IP6DNS
   [offensive] NativePayload_Image
   [offensive] NativePayload_MP
++ [offensive] NativePayload_PE1
   [offensive] NativePayload_ReverseShell
   [offensive] NativePayload_Reverse_tcp
   [offensive] NativePayload_TId
