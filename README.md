@@ -9,6 +9,7 @@ Last Update: 25 Mar 2023
   [offensive] NativePayload_BSSID
   [offensive] NativePayload_CBT
 + [offensive] NativePayload_DCP
++ [offensive] NativePayload_DIM
   [offensive] NativePayload_DNS
   [offensive] NativePayload_DNS2
 + [offensive] NativePayload_DYN
@@ -18,7 +19,7 @@ Last Update: 25 Mar 2023
   [offensive] NativePayload_IP6DNS
   [offensive] NativePayload_Image
   [offensive] NativePayload_MP
-+ [offensive] NativePayload_PE1
+  [offensive] NativePayload_PE1
   [offensive] NativePayload_ReverseShell
   [offensive] NativePayload_Reverse_tcp
   [offensive] NativePayload_TId
