@@ -48,5 +48,9 @@ ETW Memory Scanner => https://github.com/DamonMohammadbagher/ETWProcessMon2/tree
 ### NativePayload_DIM + loading Native Dll "ThreadStackSpoofer.dll" into local process
    ![](https://github.com/DamonMohammadbagher/NativePayload_DIM/blob/main/Pics/callstackspoofer.png)
    
+-------------------   
+in this picture you can see NativePayload_DIM.dll as Managed DLL was injected into Native Process and ShellcodeFluctuation.dll as Native DLL downloaded and injected into target Native Process by Managed dll [NativePayload_DIM.dll] too.
+### NativePayload_DIM.dll + loading Native Dll "ShellcodeFluctuation.dll" into Native process cmd.exe or notepad.exe
+   ![](https://github.com/DamonMohammadbagher/NativePayload_DIM/blob/main/Pics/DIMNativex.png)
    
 <p><a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/DamonMohammadbagher/NativePayload_DIM"/></a></p>
