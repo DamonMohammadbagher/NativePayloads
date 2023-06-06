@@ -1,4 +1,0 @@
-if you getting error , use command with one argument
-syntax : Meterpreter_Payload_Detection.exe IPS
-syntax : Meterpreter_Payload_Detection.exe IDS
-syntax : Meterpreter_Payload_Detection.exe Blobblob
