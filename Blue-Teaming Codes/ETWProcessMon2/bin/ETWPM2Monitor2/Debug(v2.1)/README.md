@@ -4,6 +4,8 @@ md5 info, "exe files are not safe here in github so make your own exe files with
     bc42bb0ace-5de9f8ed08-e26c46503614 => ETWPM2Monitor2.exe (v2.1) [v2.1.47.480] 31,Oct,2022 
     f7749e4e0a-b16fccf5bd-d2a66bf81167 => ETWPM2Monitor2.exe (v2.1) [v2.1.52.630] 19,Mar,2024
     a89536efe5-2adbfbaa1c-5a46aeb032e0 => CobaltStrikeScan.exe (v1.0) 26,May,2022   
+    bc8bfbe7ce-08b43d1a43-a5e6d73cf389 => pe-sieve.exe [v0.3.5] (compatible ver with ETWPM2Monitor2.exe)
+
 
 Usage Steps
 
