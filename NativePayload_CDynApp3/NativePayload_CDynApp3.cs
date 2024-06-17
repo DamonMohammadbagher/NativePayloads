@@ -14,6 +14,13 @@ namespace NativePayload_CDynApp3
         
         static void Main(string[] args)
         {             
+            Console.WriteLine();
+            Console.ForegroundColor = ConsoleColor.DarkGray;
+            Console.WriteLine("NativePayload_CDynApp3 , Published by Damon Mohammadbagher , Jun 2024");
+            Console.ForegroundColor = ConsoleColor.Gray;
+            Console.WriteLine("NativePayload_CDynApp3 loading C2 Client-Side files via New Dynamic AppDomains");
+            Console.WriteLine();
+            
             int c = 1;
             while (true)
             {
@@ -55,18 +62,6 @@ namespace NativePayload_CDynApp3
             }
 
         }
-
-
-        //public static string _RunInMemory_Dynamic_TargetMethod(byte[] Bin, object[] Args, string NameSpaceProgram, string Target_or_MainMethodName)
-        //{
-        //    Assembly _Asmx = Assembly.Load(Bin);
-        //    Type Root_NameSpace_Program = _Asmx.GetType(NameSpaceProgram);
-        //    object Inst = Activator.CreateInstance(Root_NameSpace_Program);
-        //    object[] ps = new object[] { Args };
-        //    MethodInfo _DynamicMethod = Root_NameSpace_Program.GetMethod(Target_or_MainMethodName);
-        //    string CmdObjOutput = Convert.ToString(_DynamicMethod.Invoke(Inst, ps));
-        //    return CmdObjOutput;
-
-        //}
+   
     }
 }
