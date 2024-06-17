@@ -13,7 +13,7 @@ Usage:
      NativePayload_CDynApp3.exe 
       
 
-### NativePayload_PE1 steps [Win11]
+### NativePayload_CDynApp3 steps [Win10]
    ![](https://github.com/DamonMohammadbagher/NativePayloads/blob/main/NativePayload_CDynApp3/Pic/server1.png)
    
  
