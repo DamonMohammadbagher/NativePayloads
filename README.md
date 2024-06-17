@@ -8,6 +8,7 @@ Last Update: 26 Feb 2024
 + [offensive] NativePayload_ASM3
   [offensive] NativePayload_BSSID
   [offensive] NativePayload_CBT
++ [offensive] NativePayload_CDynApp3
 + [offensive] NativePayload_DCP
 + [offensive] NativePayload_DIM
   [offensive] NativePayload_DNS
