@@ -11,7 +11,7 @@ now you can do this method via "Emit(Opcodes.Call)" instead "Emit(Opcodes.Jmp)" 
 
 in this picture you can see background of code for Emit.(Opcodes.Call) vs Emit.(Opcodes.Jmp)
  
- ![](https://github.com/DamonMohammadbagher/NativePayload_Call4/blob/main/NativePayload_Call4.png)
+ ![](https://github.com/DamonMohammadbagher/NativePayloads/blob/main/NativePayload_Call4/NativePayload_Call4.png)
 
 as you can see in the picture C# Method name ExecuteInMemory called Indirectly in memory via Emit.(Opcodes.Call) Technique , 
 so this Method is running in-memory without calling in source code ...
