@@ -5,16 +5,16 @@ Last Update: 17 Jul 2024
 ```diff
   [offensive] NativePayload_ARP
   [offensive] NativePayload_ARP2
-+ [offensive] NativePayload_ASM3
+  [offensive] NativePayload_ASM3
   [offensive] NativePayload_BSSID
 + [offensive] NativePayload_Call4
   [offensive] NativePayload_CBT
 + [offensive] NativePayload_CDynApp3
-+ [offensive] NativePayload_DCP
-+ [offensive] NativePayload_DIM
+  [offensive] NativePayload_DCP
+  [offensive] NativePayload_DIM
   [offensive] NativePayload_DNS
   [offensive] NativePayload_DNS2
-+ [offensive] NativePayload_DYN
+  [offensive] NativePayload_DYN
   [offensive] NativePayload_DynLCI
   [offensive] NativePayload_HTTP
   [offensive] NativePayload_ICMP
