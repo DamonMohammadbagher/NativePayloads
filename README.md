@@ -20,6 +20,7 @@ Last Update: 17 Jul 2024
   [offensive] NativePayload_ICMP
   [offensive] NativePayload_IP6DNS
   [offensive] NativePayload_Image
++ [offensive] NativePayload_JMP4
 + [offensive] NativePayload_LocalCreateThread7
   [offensive] NativePayload_MP
   [offensive] NativePayload_PE1
