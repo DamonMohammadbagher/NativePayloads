@@ -1,12 +1,17 @@
-# NativePayload_RefPtr1
+# NativePayload_RefPtr1 & NativePayload_RefPtr2
 
 ### NativePayload_RefPtr1 , Indirect call csharp method in memory [without call c# method in source code directly]
+
+### NativePayload_RefPtr2 , Indirect call csharp method in memory [without call c# method in source code directly]
 
  
 
 ---------------
 
  ![](https://github.com/DamonMohammadbagher/NativePayload_RefPtr1/blob/main/RefPTR.png)
+ 
+
+ ![](https://github.com/DamonMohammadbagher/NativePayload_RefPtr1/blob/main/RefPtr2x.png)
 
 Usage: 
     
