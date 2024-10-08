@@ -10,7 +10,7 @@ Last Update: oct 2024
 + [offensive] NativePayload_Call4
   [offensive] NativePayload_CBT
 + [offensive] NativePayload_CDynApp3
-+ [offensive] NativePayload_CTX
+  [offensive] NativePayload_CTX
   [offensive] NativePayload_DCP
   [offensive] NativePayload_DIM
   [offensive] NativePayload_DNS
@@ -22,7 +22,7 @@ Last Update: oct 2024
   [offensive] NativePayload_IP6DNS
   [offensive] NativePayload_Image
 + [offensive] NativePayload_JMP4
-+ [offensive] NativePayload_LocalCreateThread7
+  [offensive] NativePayload_LocalCreateThread7
   [offensive] NativePayload_MP
   [offensive] NativePayload_PE1
 + [offensive] NativePayload_PingSend
@@ -32,7 +32,7 @@ Last Update: oct 2024
   [offensive] NativePayload_TId
   [offensive] NativePayload_TiACBT
   [offensive] NativePayload_Tinjection
-+ [defensive] BEV4
+  [defensive] BEV4
 + [defensive] ETWProcessMon2
   [defensive] ETWNetMonv3
   [defensive] MPD
