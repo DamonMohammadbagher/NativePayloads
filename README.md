@@ -25,6 +25,7 @@ Last Update: oct 2024
 + [offensive] NativePayload_LocalCreateThread7
   [offensive] NativePayload_MP
   [offensive] NativePayload_PE1
++ [offensive] NativePayload_PingSend
 + [offensive] NativePayload_RefPtr1
   [offensive] NativePayload_ReverseShell
   [offensive] NativePayload_Reverse_tcp
